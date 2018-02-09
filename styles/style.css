@@ -1,8 +1,8 @@
 h1{
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
   color: purple;
-  font-family: Pacifico;
+  font-family: oxygen;
   width: 500px;
   color: white;
   text-shadow: 3px 3px 1px black;
@@ -20,6 +20,8 @@ p,li{
 html{
   font-family: pacifico;
   background-color: #770077;
+  background-image: url(../images/s.jpg);
+
 }
 
 img{
@@ -27,6 +29,7 @@ display: block;
 border-style: solid;
 border-radius: 15%;
 margin: 0 auto;
+background-image: url(../images/s.jpg);
 }
 
 body{
@@ -35,6 +38,7 @@ body{
   background-color: #F50057;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
+  background-image: url(../images/s.jpg);
 }
 
 h2 {
