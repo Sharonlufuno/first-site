@@ -1,47 +1,57 @@
+html{
+  font-family: pacifico;
+  background-color: #770077;
+  background-image: url(../images/s.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body{
+  width: 600px;
+  margin: 40px auto;
+  border-radius: 30px;
+  background-color: rgba(127, 255, 212, 0.5);
+  padding: 0 20px 20px 20px;
+}
+
 h1{
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
-  color: purple;
-  font-family: oxygen;
-  width: 500px;
-  color: white;
-  text-shadow: 3px 3px 1px black;
+  color:Black;
+  font-family: Dancing script;
+  width: 550px;
+  /* text-shadow: 3px 3px 1px black; */
   padding: 20px 0;
+}
+
+h2 {
+  color: blue;
+  text-decoration: underline;
 }
 
 p,li{
   font-size: 20px;
   line-height: 2;
   letter-spacing: 1px;
-  color: white;
+  color: black;
   border-style: none;
 }
 
-html{
-  font-family: pacifico;
-  background-color: #770077;
-  background-image: url(../images/s.jpg);
-
-}
-
 img{
-display: block;
-border-style: solid;
-border-radius: 15%;
-margin: 0 auto;
-background-image: url(../images/s.jpg);
-}
-
-body{
-  width: 600px;
+  display: block;
+  border-radius: 30px;
   margin: 0 auto;
-  background-color: #F50057;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
-  background-image: url(../images/s.jpg);
 }
 
-h2 {
-  color: black;
-  text-decoration: underline;
+#button{
+background-color:DeepSkyBlue;
+width: 80px;
+padding: 20px;
+margin: 0 auto;
+
+}
+
+#button:hover{
+Background-color:DodgerBlue ;
+cursor: pointer;
 }
